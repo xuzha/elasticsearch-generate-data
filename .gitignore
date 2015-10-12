@@ -1,17 +1,17 @@
+Worksheet.sc
+target
 *.class
+project/project
+project/target
 *.log
-
-# sbt specific
+*.log.*
+.idea
+.idea_modules
+build.sbt-e
+dump.rdb
 .cache
-.history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+data
+local
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+## mac ignores
+.DS_Store
