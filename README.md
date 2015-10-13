@@ -6,6 +6,7 @@ Exampe : sbt "run -count=5000 -es_url=http://localhost:9200/ -index_name=test"
 
 
 Support the following configurations
+<pre>
   Options:
     -h, --help
        Print help text
@@ -41,6 +42,7 @@ Support the following configurations
        Set refresh rate to -1 before starting the upload
        Default: false
     -user_name
-       For Shield
-	-password
-       For Shield
+       For Shield username
+    -password
+       For Shield password
+</pre>
